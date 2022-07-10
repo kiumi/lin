@@ -236,7 +236,7 @@
   font-size: 22px;
 }
 
-.glightbox-container .goverlay {
+/* .glightbox-container .goverlay {
   background: rgba(255, 255, 255, 0.92);
 }
 .glightbox-container .gslide-image {
@@ -247,7 +247,7 @@
 .glightbox-container .gslide-image img {
   min-width: 100%;
   width: 100%;
-}
+} */
 
 @media (max-width: 1440px) {
   #home .home-container .run-circle-text {
