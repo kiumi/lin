@@ -36,10 +36,10 @@
       &:before {
         content: "";
         position: absolute;
-        right: 5%;
-        bottom: -69%;
-        width: 615px;
-        height: 353px;
+        right: 0%;
+        bottom: -63%;
+        width: 500px;
+        height: 320px;
         background: url(../img/home_items.svg) center center no-repeat;
       }
       &:after {
@@ -178,6 +178,7 @@
     font-family: system-ui;
     font-weight: 900;
     line-height: 120px;
+    color: #000;
     span {
       display: block;
     }
@@ -215,6 +216,7 @@
     overflow: hidden;
     height: 200px;
     &:hover {
+      cursor: pointer;
       .portfolio-img:before {
         opacity: 1;
         z-index: 1;
@@ -263,16 +265,6 @@
   .goverlay {
     background: rgb(255 255 255 / 92%);
   }
-  .gslide-image {
-    width: 800px;
-    height: 100%;
-    overflow-y: scroll;
-    img {
-      min-width: 100% ;
-      width: 100%;
-    }
-     
-  }
 }
 
 @media (max-width: 1440px) {
@@ -298,9 +290,9 @@
       .text-right {
         font-size: 100px;
         &:before{
-          bottom: -75%;
-          width: 440px;
-          height: 260px;
+          bottom: -76%;
+          width: 360px;
+          height: 280px;
         }
       }
     }
